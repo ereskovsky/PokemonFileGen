@@ -29,9 +29,9 @@ namespace json_file_gen
     }
     static class RelationType
     {
-        public static string Good = "isGoodAgainst";
-        public static string Normal = "isNormal";
-        public static string Bad = "isBadAgainst";
-        public static string NoEffect = "isNoEffectAgainst";
+        public static string Good = "/isGoodAgainst";
+        public static string Normal = "/isNormalAgainst";
+        public static string Bad = "/isBadAgainst";
+        public static string NoEffect = "/isNoEffectAgainst";
     }
 }
